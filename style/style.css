@@ -267,3 +267,122 @@ body {
 }
 
 }
+
+
+
+
+
+
+
+
+
+/* Media Query para menores celulares */
+@media (max-width: 575px) {
+    .custom-footer {
+        text-align: left;
+        padding: 9.375em 0;
+        padding-left: 5em;
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .custom-footer a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s;
+        font-size: 1.2rem;
+    }
+
+    .iconetamanho {
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+    .custom-footer a:hover {
+        color: #7a7979;
+    }
+
+    .footerpatricia {
+        font-family: "Allura", cursive;
+    }
+
+    .estilizacaofooter {
+        background-color: black;
+    }
+}
+
+/* Media Query para celulares maiores */
+@media (min-width: 576px) and (max-width: 767px) {
+    .custom-footer {
+        text-align: left;
+        padding: 9.375em 0;
+        padding-left: 5em;
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .custom-footer a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s;
+        font-size: 1.2rem;
+    }
+
+    .iconetamanho {
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+    .custom-footer a:hover {
+        color: #7a7979;
+    }
+
+    .footerpatricia {
+        font-family: "Allura", cursive;
+    }
+
+    .estilizacaofooter {
+        background-color: black;
+    }
+}
+
+/* Media Query para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom-footer {
+        text-align: left;
+        padding: 9.375em 0;
+        padding-left: 5em;
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .custom-footer a {
+        color: #000;
+        text-decoration: none;
+        transition: color 0.3s;
+        font-size: 1.2rem;
+    }
+
+    .iconetamanho {
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+    .custom-footer a:hover {
+        color: #7a7979;
+    }
+
+    .footerpatricia {
+        font-family: "Allura", cursive;
+    }
+
+    .estilizacaofooter {
+        background-color: black;
+    }
+}
