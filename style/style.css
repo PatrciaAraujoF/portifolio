@@ -243,6 +243,7 @@ body {
 }
 
 
+/* Estilo padrão para computadores e telas maiores */
 .navbar {
     background-image: url('../imagens/fundo.svg');
     background-size: cover;
@@ -253,6 +254,81 @@ body {
 .navbartitulo {
     font-family: "Allura", cursive;
     font-size: 2em;
+}
+
+/* Media Query para dispositivos menores (telefones menores que 375px) */
+@media (max-width: 374px) {
+    .navbar {
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbartitulo {
+        font-family: "Allura", cursive;
+        font-size: 1em; /* Ajuste para pequeno dispositivo */
+    }
+}
+
+/* Media Query para telefones pequenos (375px a 575px) */
+@media (min-width: 375px) and (max-width: 575px) {
+    .navbar {
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbartitulo {
+        font-family: "Allura", cursive;
+        font-size: 1.2em;
+    }
+}
+
+/* Media Query para telefones médios (576px a 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbartitulo {
+        font-family: "Allura", cursive;
+        font-size: 1.5em;
+    }
+}
+
+/* Media Query para tablets (768px a 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbartitulo {
+        font-family: "Allura", cursive;
+        font-size: 1.8em;
+    }
+}
+
+/* Ajuste para desktops e dispositivos maiores (992px e acima) */
+@media (min-width: 992px) {
+    .navbar {
+        background-image: url('../imagens/fundo.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbartitulo {
+        font-family: "Allura", cursive;
+        font-size: 2em;
+    }
 }
 
 .projeto {
@@ -271,17 +347,15 @@ body {
 
 
 
-
-
-
-
-
 /* Media Query para menores celulares */
 @media (max-width: 575px) {
     .custom-footer {
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         padding: 9.375em 0;
-        padding-left: 5em;
         background-image: url('../imagens/fundo.svg');
         background-size: cover;
         background-position: center;
@@ -316,9 +390,12 @@ body {
 /* Media Query para celulares maiores */
 @media (min-width: 576px) and (max-width: 767px) {
     .custom-footer {
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         padding: 9.375em 0;
-        padding-left: 5em;
         background-image: url('../imagens/fundo.svg');
         background-size: cover;
         background-position: center;
@@ -353,9 +430,12 @@ body {
 /* Media Query para tablets */
 @media (min-width: 768px) and (max-width: 991px) {
     .custom-footer {
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         padding: 9.375em 0;
-        padding-left: 5em;
         background-image: url('../imagens/fundo.svg');
         background-size: cover;
         background-position: center;
